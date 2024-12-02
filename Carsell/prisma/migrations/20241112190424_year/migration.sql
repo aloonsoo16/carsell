@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Vehicle" ADD COLUMN     "comment" TEXT,
+ADD COLUMN     "year" INTEGER NOT NULL DEFAULT 2024,
+ALTER COLUMN "features" DROP NOT NULL;
