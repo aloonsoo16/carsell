@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Vehicle" ALTER COLUMN "year" SET DEFAULT 2024;
