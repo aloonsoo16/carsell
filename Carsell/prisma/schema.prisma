@@ -1,0 +1,68 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  username  String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  vehicles  Vehicle[] @relation("UserVehicles") // Relación con los vehículos
+  favorites  Favorite[] // Relación con los favoritos del usuario
+}
+
+model Vehicle {
+  id            Int       @id @default(autoincrement()) // ID único del vehículo
+  brand         String    // Marca del vehículo
+  model         String    // Modelo del vehículo
+  version       String    // Versión del vehículo
+  price         Float     // Precio del vehículo
+  province      String    // Provincia del vehículo
+  kilometers    Int       // Kilómetros del vehículo
+  bodyType      String    // Tipo de carrocería
+  color         String    // Color del vehículo
+  transmission  String    // Tipo de cambio (automático/manual)
+  fuelType      String    // Tipo de combustible
+  label         String    // Etiqueta ambiental
+  traction      String    // Tracción del vehículo
+  power         Int       // Potencia del vehículo
+  displacement  Float     // Cilindrada del vehículo
+  doors         Int       // Número de puertas
+  seats         Int       // Número de plazas
+  features      String?   // Equipamiento adicional (opcional)
+  userId        Int       // ID del usuario que creó el vehículo
+  user          User      @relation(fields: [userId], references: [id], name: "UserVehicles") // Relación con el usuario
+  createdAt     DateTime  @default(now()) // Fecha de creación
+  updatedAt     DateTime  @updatedAt // Fecha de última actualización
+  favorites     Favorite[] // Relación con los usuarios que tienen el vehículo en favoritos
+  isDraft       Boolean   @default(false) // Borrador (true o false)
+  year          Int       @default(2024) // Año de fabricación 
+  comment       String?   // Comentario adicional (opcional)
+}
+
+
+model Favorite {
+  id         Int      @id @default(autoincrement())
+  userId     Int
+  vehicleId  Int
+  user       User     @relation(fields: [userId], references: [id])
+  vehicle    Vehicle  @relation(fields: [vehicleId], references: [id])
+
+  @@unique([userId, vehicleId]) // Clave única para evitar duplicados
+}
+
+
+

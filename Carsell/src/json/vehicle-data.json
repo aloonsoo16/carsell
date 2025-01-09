@@ -1,0 +1,1801 @@
+{
+  "models": {
+    "Audi": ["R8"],
+    "BMW": ["Serie 2"]
+  },
+  "bodyTypes": {
+    "Audi": {
+      "R8": ["Cabrio", "Coupé"]
+    },
+    "BMW": {
+      "Serie 2": ["Berlina", "Cabrio", "Coupé", "Monovolumen"]
+    }
+  },
+  "doorsNumber": {
+    "Audi": {
+      "R8": {
+        "Cabrio": ["2"],
+        "Coupé": ["2"]
+      }
+    },
+
+    "BMW": {
+      "Serie 2": {
+        "Berlina": ["4"],
+        "Cabrio": ["2"],
+        "Coupé": ["2"],
+        "Monovolumen": ["5"]
+      }
+    }
+  },
+  "seatsNumber": {
+    "Audi": {
+      "R8": {
+        "Cabrio": ["2"],
+        "Coupé": ["2"]
+      }
+    },
+
+    "BMW": {
+      "Serie 2": {
+        "Berlina": ["5"],
+        "Cabrio": ["4"],
+        "Coupé": ["4"],
+        "Monovolumen": ["5", "7"]
+      }
+    }
+  },
+  "fuelTypes": {
+    "Audi": {
+      "R8": {
+        "Cabrio": {
+          "2": ["Gasolina"]
+        },
+        "Coupé": {
+          "2": ["Gasolina"]
+        }
+      }
+    },
+    "BMW": {
+      "Serie 2": {
+        "Berlina": {
+          "4": ["Gasolina", "Diésel", "Híbrido"]
+        },
+        "Cabrio": {
+          "2": ["Gasolina", "Diésel"]
+        },
+        "Coupé": {
+          "2": ["Gasolina", "Diésel", "Híbrido"]
+        },
+        "Monovolumen": {
+          "5": ["Gasolina", "Diésel"]
+        }
+      }
+    }
+  },
+  "years": {
+    "Audi": {
+      "R8": {
+        "Cabrio": {
+          "2": {
+            "Gasolina": [
+              "2024",
+              "2023",
+              "2022",
+              "2021",
+              "2020",
+              "2019",
+              "2018",
+              "2017",
+              "2016",
+              "2015",
+              "2014",
+              "2013",
+              "2012",
+              "2011",
+              "2010",
+              "2009"
+            ]
+          }
+        },
+        "Coupé": {
+          "2": {
+            "Gasolina": [
+              "2024",
+              "2023",
+              "2022",
+              "2021",
+              "2020",
+              "2019",
+              "2018",
+              "2017",
+              "2016",
+              "2015",
+              "2014",
+              "2013",
+              "2012",
+              "2011",
+              "2010",
+              "2009",
+              "2008",
+              "2007"
+            ]
+          }
+        }
+      }
+    },
+
+    "BMW": {
+      "Serie 2": {
+        "Berlina": {
+          "4": {
+            "Gasolina": ["2024", "2023", "2022", "2021", "2020", "2019"],
+            "Diésel": ["2024", "2023", "2022", "2021", "2020", "2019"],
+            "Híbrido": ["2024"]
+          }
+        },
+        "Cabrio": {
+          "2": {
+            "Gasolina": [
+              "2021",
+              "2020",
+              "2019",
+              "2018",
+              "2017",
+              "2016",
+              "2015",
+              "2014"
+            ],
+            "Diésel": ["2020", "2019", "2018", "2017", "2016", "2015", "2014"]
+          }
+        },
+        "Coupé": {
+          "2": {
+            "Gasolina": [
+              "2024",
+              "2023",
+              "2022",
+              "2021",
+              "2020",
+              "2019",
+              "2018",
+              "2017",
+              "2016",
+              "2015",
+              "2014",
+              "2013"
+            ],
+            "Diésel": [
+              "2020",
+              "2019",
+              "2018",
+              "2017",
+              "2016",
+              "2015",
+              "2014",
+              "2013"
+            ],
+            "Híbrido": ["2024", "2023", "2022", "2021"]
+          }
+        },
+        "Monovolumen": {
+          "5": {
+            "Gasolina": ["2015", "2014"],
+            "Diésel": ["2015", "2014"]
+          }
+        }
+      }
+    }
+  },
+
+  "versions": {
+    "Audi": {
+      "R8": {
+        "Cabrio": {
+          "2": {
+            "Gasolina": {
+              "2024": [
+                "Spyder V10 FSI perform. 419kW S tr.",
+                "Spyder V10 FSI perform. 456kW qua. S tr."
+              ],
+              "2023": [
+                "Spyder V10 FSI perform. 419kW RWD S tr.",
+                "Spyder V10 FSI perform. 456kW qua. S tr."
+              ],
+              "2022": [
+                "Spyder V10 FSI 397kW rwd S tronic",
+                "Spyder V10 FSI 419kW quattro S tronic",
+                "Spyder V10 FSI 456kW perform quatt S tro",
+                "Spyder V10 FSI perform. 419kW RWD S tr.",
+                "Spyder V10 FSI perform. 456kW qua. S tr."
+              ],
+              "2021": [
+                "Spyder V10 FSI 397kW rwd S tronic",
+                "Spyder V10 FSI 419kW quattro S tronic",
+                "Spyder V10 FSI 456kW perform quatt S tro",
+                "Spyder V10 FSI perform. 419kW RWD S tr.",
+                "Spyder V10 FSI perform. 456kW qua. S tr."
+              ],
+              "2020": [
+                "Spyder V10 FSI 397kW rwd S tronic",
+                "Spyder V10 FSI 419kW quattro S tronic",
+                "Spyder V10 FSI 456kW perform quatt S tro",
+                "Spyder V10 FSI perform. 419kW RWD S tr.",
+                "Spyder V10 FSI perform. 456kW qua. S tr."
+              ],
+              "2019": [
+                "Spyder 5.2 FSI 397kW quattro S tronic",
+                "Spyder 5.2 FSI 397kW RWS S tron",
+                "Spyder 5.2 FSI 449kW plus quattro S tron",
+                "Spyder V10 FSI 397kW rwd S tronic",
+                "Spyder V10 FSI 419kW quattro S tronic",
+                "Spyder V10 FSI 456kW perform quatt S tro"
+              ],
+              "2018": [
+                "5.2 FSI 397kW quattro S tronic Spyder",
+                "Spyder 5.2 FSI 397kW quattro S tronic",
+                "Spyder 5.2 FSI 397kW RWS S tron",
+                "Spyder 5.2 FSI 449kW plus quattro S tron",
+                "Spyder V10 FSI 419kW quattro S tronic",
+                "Spyder V10 FSI 456kW perform quatt S tro"
+              ],
+              "2017": [
+                "5.2 FSI 397kW quattro S tronic Spyder",
+                "Spyder 5.2 FSI 397kW quattro S tronic",
+                "Spyder 5.2 FSI 397kW RWS S tron",
+                "Spyder 5.2 FSI 449kW plus quattro S tron"
+              ],
+              "2016": [
+                "5.2 FSI 397kW quattro S tronic Spyder",
+                "Spyder 4.2 FSI quattro",
+                "Spyder 4.2 FSI quattro S tronic",
+                "Spyder 5.2 FSI 397kW quattro S tronic",
+                "Spyder 5.2 FSI 397kW RWS S tron",
+                "Spyder 5.2 FSI 449kW plus quattro S tron",
+                "Spyder 5.2 FSI quattro",
+                "Spyder 5.2 FSI quattro S tronic"
+              ],
+              "2015": [
+                "5.2 FSI 397kW quattro S tronic Spyder",
+                "Spyder 4.2 FSI quattro",
+                "Spyder 4.2 FSI quattro S tronic",
+                "Spyder 5.2 FSI quattro",
+                "Spyder 5.2 FSI quattro S tronic"
+              ],
+              "2014": [
+                "Spyder 4.2 FSI quattro",
+                "Spyder 4.2 FSI quattro S tronic",
+                "Spyder 5.2 FSI quattro",
+                "Spyder 5.2 FSI quattro S tronic"
+              ],
+              "2013": [
+                "GT Spyder 5.2 FSI quattro R tronic",
+                "Spyder 4.2 FSI quattro",
+                "Spyder 4.2 FSI quattro S tronic",
+                "Spyder 4.2 FSI V8 quattro",
+                "Spyder 4.2 FSI V8 quattro R tronic",
+                "Spyder 5.2 FSI quattro",
+                "Spyder 5.2 FSI quattro S tronic",
+                "Spyder 5.2 V10 quattro",
+                "Spyder 5.2 FSI V10 quattro R tronic"
+              ],
+              "2012": [
+                "GT Spyder 5.2 FSI quattro R tronic",
+                "Spyder 4.2 FSI quattro",
+                "Spyder 4.2 FSI quattro S tronic",
+                "Spyder 4.2 FSI V8 quattro",
+                "Spyder 4.2 FSI V8 quattro R tronic",
+                "Spyder 5.2 FSI quattro",
+                "Spyder 5.2 FSI quattro S tronic",
+                "Spyder 5.2 V10 quattro",
+                "Spyder 5.2 FSI V10 quattro R tronic"
+              ],
+              "2011": [
+                "GT Spyder 5.2 FSI quattro R tronic",
+                "Spyder 4.2 FSI quattro",
+                "Spyder 4.2 FSI quattro S tronic",
+                "Spyder 4.2 FSI V8 quattro",
+                "Spyder 4.2 FSI V8 quattro R tronic",
+                "Spyder 5.2 FSI quattro",
+                "Spyder 5.2 FSI quattro S tronic",
+                "Spyder 5.2 V10 quattro",
+                "Spyder 5.2 FSI V10 quattro R tronic"
+              ],
+              "2010": [
+                "Spyder 4.2 FSI V8 quattro",
+                "Spyder 4.2 FSI V8 quattro R tronic",
+                "Spyder 5.2 FSI V10 quattro",
+                "Spyder 5.2 FSI V10 quattro S tronic"
+              ],
+              "2009": [
+                "Spyder 4.2 FSI V8 quattro",
+                "Spyder 4.2 FSI V8 quattro R tronic",
+                "Spyder 5.2 V10 quattro",
+                "Spyder 5.2 FSI V10 quattro R tronic"
+              ]
+            }
+          }
+        },
+        "Coupé": {
+          "2": {
+            "Gasolina": {
+              "2024": [
+                "V10 FSI performance 419kW S tr.",
+                "V10 FSI performance 456kW quattro S tr."
+              ],
+              "2023": [
+                "V10 FSI performance 419kW RWD S tr.",
+                "V10 FSI performance 456kW quattro S tr."
+              ],
+              "2022": [
+                "V10 FSI 397kW 540cv rwd S tronic",
+                "V10 FSI 419kW 570cv quattro S tronic",
+                "V10 FSI 456kW performance quattro S tro",
+                "V10 FSI performance 419kW RWD S tr.",
+                "V10 FSI performance 456kW quattro S tr."
+              ],
+              "2021": [
+                "V10 FSI 397kW 540cv rwd S tronic",
+                "V10 FSI 419kW 570cv quattro S tronic",
+                "V10 FSI 456kW performance quattro S tro",
+                "V10 FSI performance 419kW RWD S tr.",
+                "V10 FSI performance 456kW quattro S tr."
+              ],
+              "2020": [
+                "V10 FSI 397kW 540cv rwd S tronic",
+                "V10 FSI 419kW 570cv quattro S tronic",
+                "V10 FSI 456kW performance quattro S tro",
+                "V10 FSI performance 419kW RWD S tr.",
+                "V10 FSI performance 456kW quattro S tr."
+              ],
+              "2019": [
+                "5.2 FSI 397kW 540cv quattro S tronic",
+                "5.2 FSI 397kW 540cv RWS S tronic",
+                "5.2 FSI 449kW 610cv plus quattro S tro",
+                "V10 FSI 397kW 540cv rwd S tronic",
+                "V10 FSI 419kW 570cv quattro S tronic",
+                "V10 FSI 456kW perform quattro S tro"
+              ],
+              "2018": [
+                "5.2 FSI 397kW 540cv quattro S tronic",
+                "5.2 FSI 397kW 540cv RWS S tronic",
+                "5.2 FSI 449kW 610cv plus quattro S tro",
+                "V10 FSI 419kW 570cv quattro S tronic",
+                "V10 FSI 456kW performance quatro S tro"
+              ],
+              "2017": [
+                "5.2 FSI 397kW 540cv quattro S tronic",
+                "5.2 FSI 397kW 540cv RWS S tronic",
+                "5.2 FSI 449kW 610cv plus quattro S tro",
+                "5.2 FSI V10 540cv quattro S tronic",
+                "5.2 FSI V10 plus 610cv quattro S tronic"
+              ],
+              "2016": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro S tronic",
+                "5.2 FSI 397kW 540cv quattro S tronic",
+                "5.2 FSI 397kW 540cv RWS S tron",
+                "5.2 FSI 449kW 610cv plus quattro S tro",
+                "5.2 FSI plus quattro",
+                "5.2 FSI plus quattro S tronic",
+                "5.2 FSI quattro",
+                "5.2 FSI quattro S tronic",
+                "5.2 FSI V10 540cv quattro S tronic",
+                "5.2 FSI V10 plus 610cv quattro S tronic"
+              ],
+              "2015": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro S tronic",
+                "5.2 FSI 397kW 540cv quattro S tronic",
+                "5.2 FSI 449kW 610cv plus quattro S tro",
+                "5.2 FSI plus quattro",
+                "5.2 FSI plus quattro S tronic",
+                "5.2 FSI quattro",
+                "5.2 FSI quattro S tronic",
+                "5.2 FSI V10 540cv quattro S tronic",
+                "5.2 FSI V10 plus 610cv quattro S tronic"
+              ],
+              "2014": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro S tronic",
+                "5.2 FSI plus quattro",
+                "5.2 FSI plus quattro S tronic",
+                "5.2 FSI quattro",
+                "5.2 FSI quattro S tronic",
+                "5.2 FSI V10 540cv quattro S tronic",
+                "5.2 FSI V10 plus 610cv quattro S tronic"
+              ],
+              "2013": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro S tronic",
+                "4.2 V8 quattro",
+                "4.2 V8 quattro R tronic",
+                "5.2 FSI plus quattro",
+                "5.2 FSI plus quattro S tronic",
+                "5.2 FSI quattro",
+                "5.2 FSI quattro S tronic",
+                "5.2 FSI V10 quattro",
+                "5.2 FSI V10 quattro R tronic"
+              ],
+              "2012": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro S tronic",
+                "4.2 V8 quattro",
+                "4.2 V8 quattro R tronic",
+                "5.2 FSI plus quattro",
+                "5.2 FSI plus quattro S tronic",
+                "5.2 FSI quattro",
+                "5.2 FSI quattro S tronic",
+                "5.2 FSI V10 quattro",
+                "5.2 FSI V10 quattro R tronic"
+              ],
+              "2011": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro S tronic",
+                "4.2 V8 quattro",
+                "4.2 V8 quattro R tronic",
+                "5.2 FSI plus quattro",
+                "5.2 FSI plus quattro S tronic",
+                "5.2 FSI quattro",
+                "5.2 FSI quattro S tronic",
+                "5.2 FSI V10 quattro",
+                "5.2 FSI V10 quattro R tronic"
+              ],
+              "2010": [
+                "4.2 V8 quattro",
+                "4.2 V8 quattro R tronic",
+                "5.2 FSI V10 quattro",
+                "5.2 FSI V10 quattro R tronic"
+              ],
+              "2009": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro R tronic",
+                "4.2 FSI V8 quattro",
+                "4.2 FSI V8 quattro R tronic",
+                "5.2 FSI V10 quattro",
+                "5.2 FSI V10 quattro R tronic"
+              ],
+              "2008": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro R tronic",
+                "4.2 FSI V8 quattro",
+                "4.2 FSI V8 quattro R tronic",
+                "5.2 FSI V10 quattro",
+                "5.2 FSI V10 quattro R tronic"
+              ],
+              "2007": [
+                "4.2 FSI quattro",
+                "4.2 FSI quattro R tronic",
+                "4.2 FSI V8 quattro",
+                "4.2 FSI V8 quattro R tronic",
+                "5.2 FSI V10 quattro",
+                "5.2 FSI V10 quattro R tronic"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "BMW": {
+      "Serie 2": {
+        "Berlina": {
+          "4": {
+            "Diésel": {
+              "2024": [
+                "216dA DCT Gran Coupe",
+                "218dA Gran Coupe",
+                "218d Gran Coupe",
+                "220dA Gran Coupe"
+              ],
+              "2023": [
+                "216dA DCT Gran Coupe",
+                "218dA Gran Coupe",
+                "218d Gran Coupe",
+                "220dA Gran Coupe"
+              ],
+              "2022": [
+                "216dA DCT Gran Coupe",
+                "218dA Gran Coupe",
+                "220dA Gran Coupe"
+              ],
+              "2021": [
+                "216dA DCT Gran Coupe",
+                "216d DCT Gran Coupe",
+                "218dA Gran Coupe",
+                "220dA Gran Coupe"
+              ],
+              "2020": [
+                "216dA DCT Gran Coupe",
+                "216d DCT Gran Coupe",
+                "218dA Gran Coupe",
+                "220dA Gran Coupe"
+              ],
+              "2019": [
+                "216dA DCT Gran Coupe",
+                "216d DCT Gran Coupe",
+                "218dA Gran Coupe",
+                "220dA Gran Coupe"
+              ]
+            },
+            "Gasolina": {
+              "2024": [
+                "218i Gran Coupe",
+                "218iA Gran Coupe",
+                "220i Gran Coupe",
+                "M235iA xDrive Gran Coupe",
+                "M235i xDrive Gran Coupe",
+                "M235 xDrive Gran Coupe"
+              ],
+              "2023": [
+                "218i Gran Coupe",
+                "218iA Gran Coupe",
+                "220i Gran Coupe",
+                "M235iA xDrive Gran Coupe",
+                "M235i xDrive Gran Coupe",
+                "M235 xDrive Gran Coupe"
+              ],
+              "2022": [
+                "218i Gran Coupe",
+                "220iA Gran Coupe",
+                "M235iA xDrive Gran Coupe"
+              ],
+              "2021": [
+                "218i Gran Coupe",
+                "218iA Gran Coupe",
+                "220iA Gran Coupe",
+                "M235iA xDrive Gran Coupe"
+              ],
+              "2020": [
+                "218i Gran Coupe",
+                "218iA Gran Coupe",
+                "220iA Gran Coupe",
+                "M235iA xDrive Gran Coupe"
+              ],
+              "2019": [
+                "218i Gran Coupe",
+                "218iA Gran Coupe",
+                "220iA Gran Coupe",
+                "M235iA xDrive Gran Coupe"
+              ]
+            },
+            "Híbrido": {
+              "2024": ["220d Gran Coupe (Híbrido)", "220 Gran Coupe (Híbrido)"]
+            }
+          }
+        },
+        "Cabrio": {
+          "2": {
+            "Diésel": {
+              "2020": ["218d", "218dA", "220d", "220dA", "225dA"],
+              "2019": ["218d", "218dA", "220d", "220dA", "225dA"],
+              "2018": ["218d", "218dA", "220d", "220dA", "225dA"],
+              "2017": ["218d", "220d", "225dA"],
+              "2016": ["218d", "220d", "225dA"],
+              "2015": ["218d", "220d", "225dA"],
+              "2014": ["218d", "220d", "225dA"]
+            },
+            "Gasolina": {
+              "2021": ["218i", "220iA", "230iA", "M240iA"],
+              "2020": ["218i", "220iA", "230iA", "M240iA", "M240iA xDrive"],
+              "2019": [
+                "218i",
+                "220iA",
+                "230iA",
+                "M240i",
+                "M240iA",
+                "M240iA xDrive"
+              ],
+              "2018": [
+                "218i",
+                "220i",
+                "220iA",
+                "230i",
+                "230iA",
+                "M240i",
+                "M240iA",
+                "M240iA xDrive"
+              ],
+              "2017": [
+                "218i",
+                "220i",
+                "220iA",
+                "228i",
+                "230i",
+                "230iA",
+                "M235i",
+                "M235iA xDrive",
+                "M240i",
+                "M240iA",
+                "M240iA xDrive"
+              ],
+              "2016": [
+                "218i",
+                "220i",
+                "220iA",
+                "228i",
+                "230i",
+                "230iA",
+                "M235i",
+                "M235iA xDrive",
+                "M240i",
+                "M240iA",
+                "M240iA xDrive"
+              ],
+              "2015": [
+                "218i",
+                "220i",
+                "228i",
+                "230i",
+                "M235i",
+                "M235iA xDrive",
+                "M240i",
+                "M240iA",
+                "M240iA xDrive"
+              ],
+              "2014": ["218i", "220i", "228i", "M235i", "M235iA xDrive"]
+            }
+          }
+        },
+        "Coupé": {
+          "2": {
+            "Diésel": {
+              "2020": [
+                "218d",
+                "218dA",
+                "220d",
+                "220dA",
+                "220dA xDrive",
+                "225dA"
+              ],
+              "2019": [
+                "218d",
+                "218dA",
+                "220d",
+                "220dA",
+                "220dA xDrive",
+                "225dA"
+              ],
+              "2018": [
+                "218d",
+                "218dA",
+                "220d",
+                "220dA",
+                "220dA xDrive",
+                "225dA"
+              ],
+              "2017": ["218d", "220d", "220dA xDrive", "225dA"],
+              "2016": ["218d", "220d", "220dA xDrive", "225dA"],
+              "2015": ["218d", "220d", "220dA xDrive", "225dA"],
+              "2014": ["218d", "220d", "220dA xDrive", "225dA"],
+              "2013": ["218d", "220d", "225dA"]
+            },
+            "Gasolina": {
+              "2024": [
+                "218iA",
+                "218i M Sport",
+                "220iA",
+                "220i M Sport",
+                "230iA",
+                "230i M Sport",
+                "M2",
+                "M240iA",
+                "M240iA xDrive",
+                "M240i xDrive"
+              ],
+              "2023": [
+                "218iA",
+                "218i M Sport",
+                "220iA",
+                "220i M Sport",
+                "230iA",
+                "230i M Sport",
+                "M2",
+                "M240iA",
+                "M240iA xDrive",
+                "M240i xDrive"
+              ],
+              "2022": [
+                "218i",
+                "218iA",
+                "220iA",
+                "230iA",
+                "M2",
+                "M240iA",
+                "M240iA xDrive",
+                "M2 Competition",
+                "M2 CS"
+              ],
+              "2021": [
+                "218i",
+                "218iA",
+                "220iA",
+                "230iA",
+                "M2",
+                "M240iA",
+                "M240iA xDrive",
+                "M2 Competition",
+                "M2 CS"
+              ],
+              "2020": [
+                "218i",
+                "220iA",
+                "230iA",
+                "M240iA",
+                "M240iA xDrive",
+                "M2 Competition",
+                "M2 CS"
+              ],
+              "2019": [
+                "218i",
+                "220iA",
+                "230iA",
+                "M2",
+                "M240i",
+                "M240iA",
+                "M240iA xDrive",
+                "M2 Competition",
+                "M2 CS"
+              ],
+              "2018": [
+                "218i",
+                "220i",
+                "220iA",
+                "230i",
+                "230iA",
+                "M2",
+                "M240i",
+                "M240iA",
+                "M240iA xDrive",
+                "M2 Competition"
+              ],
+              "2017": [
+                "218i",
+                "220i",
+                "220iA",
+                "228i",
+                "230i",
+                "230iA",
+                "M2",
+                "M235i",
+                "M235iA xDrive",
+                "M240i",
+                "M240iA",
+                "M240iA xDrive",
+                "M2 Competition"
+              ],
+              "2016": [
+                "218i",
+                "220i",
+                "220iA",
+                "228i",
+                "230i",
+                "230iA",
+                "M2",
+                "M235i",
+                "M235iA xDrive",
+                "M240i",
+                "M240iA xDrive"
+              ],
+              "2015": [
+                "218i",
+                "220i",
+                "228i",
+                "230i",
+                "M2",
+                "M235i",
+                "M235iA xDrive",
+                "M240i",
+                "M240iA xDrive"
+              ],
+              "2014": ["218i", "220i", "228i", "M2", "M235i", "M235iA xDrive"],
+              "2013": ["220i", "228i", "M235i", "M235iA xDrive"]
+            },
+            "Híbrido": {
+              "2024": ["220dA (Híbrido)", "220d M Sport (Híbrido)"],
+              "2023": ["220dA (Híbrido)", "220d M Sport (Híbrido)"],
+              "2022": ["220dA (Híbrido)"],
+              "2021": ["220dA (Híbrido)"]
+            }
+          }
+        },
+        "Monovolumen": {
+          "5": {
+            "Diésel": {
+              "2015": [
+                "216d Active Tourer",
+                "218d Active Tourer",
+                "220dA Active Tourer",
+                "220dA xDrive Active Tourer"
+              ],
+              "2014": [
+                "216d Active Tourer",
+                "218d Active Tourer",
+                "220dA Active Tourer",
+                "220dA xDrive Active Tourer"
+              ]
+            },
+            "Gasolina": {
+              "2015": [
+                "218i Active Tourer",
+                "220iA Active Tourer",
+                "225iA Active Tourer",
+                "225iA xDrive Active Tourer"
+              ],
+              "2014": [
+                "218i Active Tourer",
+                "220iA Active Tourer",
+                "225iA Active Tourer",
+                "225iA xDrive Active Tourer"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "displacements": {
+    "Audi": {
+      "R8": {
+        "Spyder V10 FSI perform. 419kW S tr.": [5200],
+        "Spyder V10 FSI perform. 456kW qua. S tr.": [5200],
+        "Spyder V10 FSI perform. 419kW RWD S tr.": [5200],
+        "Spyder V10 FSI 397kW rwd S tronic": [5200],
+        "Spyder V10 FSI 419kW quattro S tronic": [5200],
+        "Spyder V10 FSI 456kW perform quatt S tro": [5200],
+        "Spyder 5.2 FSI 397kW quattro S tronic": [5200],
+        "Spyder 5.2 FSI 397kW RWS S tron": [5200],
+        "Spyder 5.2 FSI 449kW plus quattro S tron": [5200],
+        "5.2 FSI 397kW quattro S tronic Spyder": [5200],
+        "Spyder 4.2 FSI quattro": [4200],
+        "Spyder 4.2 FSI quattro S tronic": [4200],
+        "Spyder 5.2 FSI quattro": [5200],
+        "Spyder 5.2 FSI quattro S tronic": [5200],
+        "GT Spyder 5.2 FSI quattro R tronic": [5200],
+        "Spyder 4.2 FSI V8 quattro": [4200],
+        "Spyder 4.2 FSI V8 quattro R tronic": [4200],
+        "Spyder 5.2 V10 quattro": [5200],
+        "Spyder 5.2 FSI V10 quattro": [5200],
+        "Spyder 5.2 FSI V10 quattro S tronic": [5200],
+        "Spyder 5.2 FSI V10 quattro R tronic": [5200],
+        "Spyder 5.2 FSI quattro RWS": [5200],
+        "V10 FSI performance 419kW S tr.": [5200],
+        "V10 FSI performance 456kW quattro S tr.": [5200],
+        "Spyder V10 FSI performance 419kW RWD S tr.": [5200],
+        "V10 FSI performance 419kW RWD S tr.": [5200],
+        "V10 FSI 397kW 540cv rwd S tronic": [5200],
+        "V10 FSI 419kW 570cv quattro S tronic": [5200],
+        "V10 FSI 456kW performance quattro S tro": [5200],
+        "V10 FSI 456kW perform quattro S tro": [5200],
+        "V10 FSI 456kW performance quatro S tro": [5200],
+        "5.2 FSI 397kW 540cv quattro S tronic": [5200],
+        "5.2 FSI 397kW 540cv RWS S tron": [5200],
+        "5.2 FSI 397kW 540cv RWS S tronic": [5200],
+        "5.2 FSI 449kW 610cv plus quattro S tro": [5200],
+        "5.2 FSI V10 540cv quattro S tronic": [5200],
+        "5.2 FSI V10 plus 610cv quattro S tronic": [5200],
+        "4.2 FSI quattro": [4200],
+        "4.2 FSI quattro S tronic": [4200],
+        "4.2 V8 quattro": [4200],
+        "4.2 FSI quattro R tronic": [4200],
+        "4.2 V8 quattro R tronic": [4200],
+        "4.2 FSI V8 quattro": [4200],
+        "4.2 FSI V8 quattro R tronic": [4200],
+        "5.2 FSI plus quattro": [5200],
+        "5.2 FSI plus quattro S tronic": [5200],
+        "5.2 FSI quattro": [5200],
+        "5.2 FSI quattro S tronic": [5200],
+        "5.2 FSI V10 quattro": [5200],
+        "5.2 FSI V10 quattro R tronic": [5200]
+      }
+    },
+    "BMW": {
+      "Serie 2": {
+        "216dA DCT Gran Coupe": [1496],
+        "218dA Gran Coupe": [1995],
+        "218d Gran Coupe": [1995],
+        "220d Gran Coupe": [1995],
+        "220dA Gran Coupe": [1995],
+        "216d DCT Gran Coupe": [1496],
+        "218i Gran Coupe": [1499],
+        "218iA Gran Coupe": [1499],
+        "220i Gran Coupe": [1499],
+        "220iA Gran Coupe": [1499],
+        "M235iA xDrive Gran Coupe": [1998],
+        "M235i xDrive Gran Coupe": [1998],
+        "M235 xDrive Gran Coupe": [1998],
+        "220d Gran Coupe (Híbrido)": [1995],
+        "220 Gran Coupe (Híbrido)": [1998],
+        "216d Active Tourer": [1995],
+        "218d Active Tourer": [1995],
+        "220dA Active Tourer": [1995],
+        "220dA xDrive Active Tourer": [1995],
+        "218i Active Tourer": [1499],
+        "220iA Active Tourer": [1998],
+        "225iA Active Tourer": [1998],
+        "225iA xDrive Active Tourer": [1998],
+        "218d": [1995],
+        "218dA": [1995],
+        "220d": [1995],
+        "220dA (Híbrido)": [1995],
+        "220d M Sport (Híbrido)": [1995],
+        "220dA": [1995],
+        "220dA xDrive": [1995],
+        "225dA": [1995],
+        "218i": [1499],
+        "218iA": [1499],
+        "218i M Sport": [1499],
+        "220i": [1998],
+        "220iA": [1998],
+        "220i M Sport": [1998],
+        "228i": [1998],
+        "230i": [1998],
+        "230i M Sport": [1998],
+        "M2": [2998],
+        "M2 Competition": [2998],
+        "M2 CS": [2998],
+        "230iA": [1998],
+        "M235i": [2998],
+        "M235iA xDrive": [2998],
+        "M240i": [2998],
+        "M240iA": [2998],
+        "M240i xDrive": [2998],
+        "M240iA xDrive": [2998]
+      }
+    }
+  },
+  "tractions": {
+    "Audi": {
+      "R8": {
+        "Spyder V10 FSI perform. 419kW S tr.": ["Integral"],
+        "Spyder V10 FSI perform. 456kW qua. S tr.": ["Integral"],
+        "Spyder V10 FSI perform. 419kW RWD S tr.": ["Integral"],
+        "Spyder V10 FSI 397kW rwd S tronic": ["Trasera"],
+        "Spyder V10 FSI 419kW quattro S tronic": ["Integral"],
+        "Spyder V10 FSI 456kW perform quatt S tro": ["Integral"],
+        "Spyder 5.2 FSI 397kW quattro S tronic": ["Integral"],
+        "Spyder 5.2 FSI 397kW RWS S tron": ["Trasera"],
+        "Spyder 5.2 FSI 449kW plus quattro S tron": ["Integral"],
+        "5.2 FSI 397kW quattro S tronic Spyder": ["Integral"],
+        "Spyder 4.2 FSI quattro": ["Integral"],
+        "Spyder 4.2 FSI quattro S tronic": ["Integral"],
+        "Spyder 5.2 FSI quattro": ["Integral"],
+        "Spyder 5.2 FSI quattro S tronic": ["Integral"],
+        "GT Spyder 5.2 FSI quattro R tronic": ["Integral"],
+        "Spyder 4.2 FSI V8 quattro": ["Integral"],
+        "Spyder 4.2 FSI V8 quattro R tronic": ["Integral"],
+        "Spyder 5.2 FSI V10 quattro": ["540"],
+        "Spyder 5.2 V10 quattro": ["Integral"],
+        "Spyder 5.2 FSI V10 quattro S tronic": ["Integral"],
+        "Spyder 5.2 FSI V10 quattro R tronic": ["Integral"],
+        "Spyder 5.2 FSI quattro RWS": ["Trasera"],
+        "V10 FSI performance 419kW S tr.": ["Integral"],
+        "V10 FSI performance 456kW quattro S tr.": ["Integral"],
+        "Spyder V10 FSI performance 419kW RWD S tr.": ["Trasera"],
+        "V10 FSI performance 419kW RWD S tr.": ["Trasera"],
+        "V10 FSI 397kW 540cv rwd S tronic": ["Trasera"],
+        "V10 FSI 419kW 570cv quattro S tronic": ["Integral"],
+        "V10 FSI 456kW performance quattro S tro": ["Integral"],
+        "V10 FSI 456kW perform quattro S tro": ["Integral"],
+        "V10 FSI 456kW performance quatro S tro": ["Integral"],
+        "5.2 FSI 397kW 540cv quattro S tronic": ["Integral"],
+        "5.2 FSI 397kW 540cv RWS S tronic": ["Trasera"],
+        "5.2 FSI 397kW 540cv RWS S tron": ["Trasera"],
+        "5.2 FSI 449kW 610cv plus quattro S tro": ["Integral"],
+        "5.2 FSI V10 540cv quattro S tronic": ["Integral"],
+        "5.2 FSI V10 plus 610cv quattro S tronic": ["Integral"],
+        "4.2 FSI quattro": ["Integral"],
+        "4.2 FSI quattro S tronic": ["Integral"],
+        "4.2 V8 quattro": ["Integral"],
+        "4.2 FSI quattro R tronic": ["Integral"],
+        "4.2 FSI V8 quattro": ["Integral"],
+        "4.2 V8 quattro R tronic": ["Integral"],
+        "5.2 FSI plus quattro": ["Integral"],
+        "5.2 FSI plus quattro S tronic": ["Integral"],
+        "5.2 FSI quattro": ["Integral"],
+        "4.2 FSI V8 quattro R tronic": ["Integral"],
+        "5.2 FSI quattro S tronic": ["Integral"],
+        "5.2 FSI V10 quattro": ["Integral"],
+        "5.2 FSI V10 quattro R tronic": ["Integral"]
+      }
+    },
+    "BMW": {
+      "Serie 2": {
+        "216dA DCT Gran Coupe": ["Delantera"],
+        "216d DCT Gran Coupe": ["Delantera"],
+        "218dA Gran Coupe": ["Delantera"],
+        "218d Gran Coupe": ["Delantera"],
+        "220d Gran Coupe": ["Delantera", "Integral"],
+        "220dA Gran Coupe": ["Delantera"],
+        "218i Gran Coupe": ["Delantera"],
+        "218iA Gran Coupe": ["Delantera"],
+        "220i Gran Coupe": ["Delantera"],
+        "M235iA xDrive Gran Coupe": ["Integral"],
+        "M235i xDrive Gran Coupe": ["Integral"],
+        "M235 xDrive Gran Coupe": ["Integral"],
+        "220d Gran Coupe (Híbrido)": ["Delantera", "Integral"],
+        "220 Gran Coupe (Híbrido)": ["Delantera", "Integral"],
+        "216d Active Tourer": ["Delantera"],
+        "218d Active Tourer": ["Delantera"],
+        "220dA Active Tourer": ["Delantera"],
+        "220dA xDrive Active Tourer": ["Integral"],
+        "218i Active Tourer": ["Delantera"],
+        "220iA Active Tourer": ["Delantera"],
+        "225iA Active Tourer": ["Delantera"],
+        "225iA xDrive Active Tourer": ["Integral"],
+        "218d": ["Delantera"],
+        "218dA": ["Delantera"],
+        "220d": ["Delantera"],
+        "220dA (Híbrido)": ["Delantera"],
+        "220d M Sport (Híbrido)": ["Delantera"],
+        "220dA": ["Delantera"],
+        "220dA xDrive": ["Integral"],
+        "225dA": ["Delantera"],
+        "218i": ["Delantera"],
+        "218iA": ["Delantera"],
+        "218i M Sport": ["Delantera"],
+        "220i": ["Delantera"],
+        "230i": ["Delantera"],
+        "220iA": ["Delantera"],
+        "220i M Sport": ["Delantera"],
+        "228i": ["Delantera"],
+        "230iA": ["Delantera"],
+        "230i M Sport": ["Delantera"],
+        "M2": ["Trasera"],
+        "M2 Competition": ["Trasera"],
+        "M2 CS": ["Trasera"],
+        "M235i": ["Trasera"],
+        "M235iA xDrive": ["Integral"],
+        "M240i": ["Trasera"],
+        "M240iA": ["Trasera"],
+        "M240i xDrive": ["Integral"],
+        "M240iA xDrive": ["Integral"]
+      }
+    }
+  },
+  "powers": {
+    "Audi": {
+      "R8": {
+        "Cabrio": {
+          "2": {
+            "Gasolina": {
+              "2024": {
+                "Spyder V10 FSI perform. 419kW S tr.": ["570"],
+                "Spyder V10 FSI perform. 456kW qua. S tr.": ["620"]
+              },
+              "2023": {
+                "Spyder V10 FSI perform. 419kW RWD S tr.": ["570"],
+                "Spyder V10 FSI perform. 456kW qua. S tr.": ["620"]
+              },
+              "2022": {
+                "Spyder V10 FSI 397kW rwd S tronic": ["540"],
+                "Spyder V10 FSI 419kW quattro S tronic": ["570"],
+                "Spyder V10 FSI 456kW perform quatt S tro": ["620"],
+                "Spyder V10 FSI perform. 419kW RWD S tr.": ["570"],
+                "Spyder V10 FSI perform. 456kW qua. S tr.": ["620"]
+              },
+              "2021": {
+                "Spyder V10 FSI 397kW rwd S tronic": ["540"],
+                "Spyder V10 FSI 419kW quattro S tronic": ["570"],
+                "Spyder V10 FSI 456kW perform quatt S tro": ["620"],
+                "Spyder V10 FSI perform. 419kW RWD S tr.": ["570"],
+                "Spyder V10 FSI perform. 456kW qua. S tr.": ["620"]
+              },
+              "2020": {
+                "Spyder V10 FSI 397kW rwd S tronic": ["540"],
+                "Spyder V10 FSI 419kW quattro S tronic": ["570"],
+                "Spyder V10 FSI 456kW perform quatt S tro": ["620"],
+                "Spyder V10 FSI perform. 419kW RWD S tr.": ["570"],
+                "Spyder V10 FSI perform. 456kW qua. S tr.": ["620"]
+              },
+              "2019": {
+                "Spyder 5.2 FSI 397kW quattro S tronic": ["540"],
+                "Spyder 5.2 FSI 397kW RWS S tron": ["540"],
+                "Spyder 5.2 FSI 449kW plus quattro S tron": ["610"],
+                "Spyder V10 FSI 397kW rwd S tronic": ["540"],
+                "Spyder V10 FSI 419kW quattro S tronic": ["570"],
+                "Spyder V10 FSI 456kW perform quatt S tro": ["620"]
+              },
+              "2018": {
+                "5.2 FSI 397kW quattro S tronic Spyder": ["540"],
+                "Spyder 5.2 FSI 397kW quattro S tronic": ["540"],
+                "Spyder 5.2 FSI 397kW RWS S tron": ["540"],
+                "Spyder 5.2 FSI 449kW plus quattro S tron": ["610"],
+                "Spyder V10 FSI 419kW quattro S tronic": ["570"],
+                "Spyder V10 FSI 456kW perform quatt S tro": ["620"]
+              },
+              "2017": {
+                "5.2 FSI 397kW quattro S tronic Spyder": ["540"],
+                "Spyder 5.2 FSI 397kW quattro S tronic": ["540"],
+                "Spyder 5.2 FSI 397kW RWS S tron": ["540"],
+                "Spyder 5.2 FSI 449kW plus quattro S tron": ["610"]
+              },
+              "2016": {
+                "5.2 FSI 397kW quattro S tronic Spyder": ["540"],
+                "Spyder 4.2 FSI quattro": ["430"],
+                "Spyder 4.2 FSI quattro S tronic": ["430"],
+                "Spyder 5.2 FSI 397kW quattro S tronic": ["540"],
+                "Spyder 5.2 FSI 397kW RWS S tron": ["540"],
+                "Spyder 5.2 FSI 449kW plus quattro S tron": ["610"],
+                "Spyder 5.2 FSI quattro": ["540"],
+                "Spyder 5.2 FSI quattro S tronic": ["540"]
+              },
+              "2015": {
+                "5.2 FSI 397kW quattro S tronic Spyder": ["540"],
+                "Spyder 4.2 FSI quattro": ["430"],
+                "Spyder 4.2 FSI quattro S tronic": ["430"],
+                "Spyder 5.2 FSI quattro": ["540"],
+                "Spyder 5.2 FSI quattro S tronic": ["540"]
+              },
+              "2014": {
+                "Spyder 4.2 FSI quattro": ["430"],
+                "Spyder 4.2 FSI quattro S tronic": ["430"],
+                "Spyder 5.2 FSI quattro": ["540"],
+                "Spyder 5.2 FSI quattro S tronic": ["540"]
+              },
+              "2013": {
+                "GT Spyder 5.2 FSI quattro R tronic": ["560"],
+                "Spyder 4.2 FSI quattro": ["430"],
+                "Spyder 4.2 FSI quattro S tronic": ["430"],
+                "Spyder 4.2 FSI V8 quattro": ["430"],
+                "Spyder 4.2 FSI V8 quattro R tronic": ["430"],
+                "Spyder 5.2 FSI quattro": ["540"],
+                "Spyder 5.2 FSI quattro S tronic": ["540"],
+                "Spyder 5.2 V10 quattro": ["540"],
+                "Spyder 5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2012": {
+                "GT Spyder 5.2 FSI quattro R tronic": ["560"],
+                "Spyder 4.2 FSI quattro": ["430"],
+                "Spyder 4.2 FSI quattro S tronic": ["430"],
+                "Spyder 4.2 FSI V8 quattro": ["430"],
+                "Spyder 4.2 FSI V8 quattro R tronic": ["430"],
+                "Spyder 5.2 FSI quattro": ["540"],
+                "Spyder 5.2 FSI quattro S tronic": ["540"],
+                "Spyder 5.2 V10 quattro": ["540"],
+                "Spyder 5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2011": {
+                "GT Spyder 5.2 FSI quattro R tronic": ["560"],
+                "Spyder 4.2 FSI quattro": ["430"],
+                "Spyder 4.2 FSI quattro S tronic": ["430"],
+                "Spyder 4.2 FSI V8 quattro": ["430"],
+                "Spyder 4.2 FSI V8 quattro R tronic": ["430"],
+                "Spyder 5.2 FSI quattro": ["540"],
+                "Spyder 5.2 FSI quattro S tronic": ["540"],
+                "Spyder 5.2 V10 quattro": ["540"],
+                "Spyder 5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2010": {
+                "Spyder 4.2 FSI V8 quattro": ["430"],
+                "Spyder 4.2 FSI V8 quattro R tronic": ["430"],
+                "Spyder 5.2 FSI V10 quattro": ["540"],
+                "Spyder 5.2 FSI V10 quattro S tronic": ["540"]
+              },
+              "2009": {
+                "Spyder 4.2 FSI V8 quattro": ["430"],
+                "Spyder 4.2 FSI V8 quattro R tronic": ["430"],
+                "Spyder 5.2 V10 quattro": ["540"],
+                "Spyder 5.2 FSI V10 quattro R tronic": ["540"]
+              }
+            }
+          }
+        },
+        "Coupé": {
+          "2": {
+            "Gasolina": {
+              "2024": {
+                "V10 FSI performance 419kW S tr.": ["570"],
+                "V10 FSI performance 456kW quattro S tr.": ["610"]
+              },
+              "2023": {
+                "V10 FSI performance 419kW RWD S tr.": ["570"],
+                "V10 FSI performance 456kW quattro S tr.": ["610"]
+              },
+              "2022": {
+                "V10 FSI 397kW 540cv rwd S tronic": ["540"],
+                "V10 FSI 419kW 570cv quattro S tronic": ["570"],
+                "V10 FSI 456kW performance quattro S tro": ["610"],
+                "V10 FSI performance 419kW RWD S tr.": ["570"],
+                "V10 FSI performance 456kW quattro S tr.": ["610"]
+              },
+              "2021": {
+                "V10 FSI 397kW 540cv rwd S tronic": ["540"],
+                "V10 FSI 419kW 570cv quattro S tronic": ["570"],
+                "V10 FSI 456kW performance quattro S tro": ["610"],
+                "V10 FSI performance 419kW RWD S tr.": ["570"],
+                "V10 FSI performance 456kW quattro S tr.": ["610"]
+              },
+              "2020": {
+                "V10 FSI 397kW 540cv rwd S tronic": ["540"],
+                "V10 FSI 419kW 570cv quattro S tronic": ["570"],
+                "V10 FSI 456kW performance quattro S tro": ["610"],
+                "V10 FSI performance 419kW RWD S tr.": ["570"],
+                "V10 FSI performance 456kW quattro S tr.": ["610"]
+              },
+              "2019": {
+                "5.2 FSI 397kW 540cv quattro S tronic": ["540"],
+                "5.2 FSI 397kW 540cv RWS S tronic": ["540"],
+                "5.2 FSI 449kW 610cv plus quattro S tro": ["610"],
+                "V10 FSI 397kW 540cv rwd S tronic": ["540"],
+                "V10 FSI 419kW 570cv quattro S tronic": ["570"],
+                "V10 FSI 456kW perform quattro S tro": ["610"]
+              },
+              "2018": {
+                "5.2 FSI 397kW 540cv quattro S tronic": ["540"],
+                "5.2 FSI 397kW 540cv RWS S tronic": ["540"],
+                "5.2 FSI 449kW 610cv plus quattro S tro": ["610"],
+                "V10 FSI 419kW 570cv quattro S tronic": ["570"],
+                "V10 FSI 456kW performance quatro S tro": ["610"]
+              },
+              "2017": {
+                "5.2 FSI 397kW 540cv quattro S tronic": ["540"],
+                "5.2 FSI 397kW 540cv RWS S tronic": ["540"],
+                "5.2 FSI 449kW 610cv plus quattro S tro": ["610"],
+                "5.2 FSI V10 540cv quattro S tronic": ["540"],
+                "5.2 FSI V10 plus 610cv quattro S tronic": ["610"]
+              },
+              "2016": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro S tronic": ["420"],
+                "5.2 FSI 397kW 540cv quattro S tronic": ["540"],
+                "5.2 FSI 397kW 540cv RWS S tron": ["540"],
+                "5.2 FSI 449kW 610cv plus quattro S tro": ["610"],
+                "5.2 FSI plus quattro": ["540"],
+                "5.2 FSI plus quattro S tronic": ["540"],
+                "5.2 FSI quattro": ["540"],
+                "5.2 FSI quattro S tronic": ["540"],
+                "5.2 FSI V10 540cv quattro S tronic": ["540"],
+                "5.2 FSI V10 plus 610cv quattro S tronic": ["610"]
+              },
+              "2015": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro S tronic": ["420"],
+                "5.2 FSI 397kW 540cv quattro S tronic": ["540"],
+                "5.2 FSI 449kW 610cv plus quattro S tro": ["610"],
+                "5.2 FSI plus quattro": ["540"],
+                "5.2 FSI plus quattro S tronic": ["540"],
+                "5.2 FSI quattro": ["540"],
+                "5.2 FSI quattro S tronic": ["540"],
+                "5.2 FSI V10 540cv quattro S tronic": ["540"],
+                "5.2 FSI V10 plus 610cv quattro S tronic": ["610"]
+              },
+              "2014": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro S tronic": ["420"],
+                "5.2 FSI plus quattro": ["540"],
+                "5.2 FSI plus quattro S tronic": ["540"],
+                "5.2 FSI quattro": ["540"],
+                "5.2 FSI quattro S tronic": ["540"],
+                "5.2 FSI V10 540cv quattro S tronic": ["540"],
+                "5.2 FSI V10 plus 610cv quattro S tronic": ["610"]
+              },
+              "2013": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro S tronic": ["420"],
+                "4.2 V8 quattro": ["420"],
+                "4.2 V8 quattro R tronic": ["420"],
+                "5.2 FSI plus quattro": ["540"],
+                "5.2 FSI plus quattro S tronic": ["540"],
+                "5.2 FSI quattro": ["540"],
+                "5.2 FSI quattro S tronic": ["540"],
+                "5.2 FSI V10 quattro": ["540"],
+                "5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2012": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro S tronic": ["420"],
+                "4.2 V8 quattro": ["420"],
+                "4.2 V8 quattro R tronic": ["420"],
+                "5.2 FSI plus quattro": ["540"],
+                "5.2 FSI plus quattro S tronic": ["540"],
+                "5.2 FSI quattro": ["540"],
+                "5.2 FSI quattro S tronic": ["540"],
+                "5.2 FSI V10 quattro": ["540"],
+                "5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2011": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro S tronic": ["420"],
+                "4.2 V8 quattro": ["420"],
+                "4.2 V8 quattro R tronic": ["420"],
+                "5.2 FSI plus quattro": ["540"],
+                "5.2 FSI plus quattro S tronic": ["540"],
+                "5.2 FSI quattro": ["540"],
+                "5.2 FSI quattro S tronic": ["540"],
+                "5.2 FSI V10 quattro": ["540"],
+                "5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2010": {
+                "4.2 V8 quattro": ["420"],
+                "4.2 V8 quattro R tronic": ["420"],
+                "5.2 FSI V10 quattro": ["540"],
+                "5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2009": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro R tronic": ["420"],
+                "4.2 FSI V8 quattro": ["420"],
+                "4.2 FSI V8 quattro R tronic": ["420"],
+                "5.2 FSI V10 quattro": ["540"],
+                "5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2008": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro R tronic": ["420"],
+                "4.2 FSI V8 quattro": ["420"],
+                "4.2 FSI V8 quattro R tronic": ["420"],
+                "5.2 FSI V10 quattro": ["540"],
+                "5.2 FSI V10 quattro R tronic": ["540"]
+              },
+              "2007": {
+                "4.2 FSI quattro": ["420"],
+                "4.2 FSI quattro R tronic": ["420"],
+                "4.2 FSI V8 quattro": ["420"],
+                "4.2 FSI V8 quattro R tronic": ["420"],
+                "5.2 FSI V10 quattro": ["540"],
+                "5.2 FSI V10 quattro R tronic": ["540"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "BMW": {
+      "Serie 2": {
+        "Berlina": {
+          "4": {
+            "Diésel": {
+              "2024": {
+                "216dA DCT Gran Coupe": ["116"],
+                "218dA Gran Coupe": ["150"],
+                "218d Gran Coupe": ["150"],
+                "220dA Gran Coupe": ["190"]
+              },
+              "2023": {
+                "216dA DCT Gran Coupe": ["116"],
+                "218dA Gran Coupe": ["150"],
+                "218d Gran Coupe": ["150"],
+                "220dA Gran Coupe": ["190"]
+              },
+              "2022": {
+                "216dA DCT Gran Coupe": ["116"],
+                "218dA Gran Coupe": ["150"],
+                "220dA Gran Coupe": ["190"]
+              },
+              "2021": {
+                "216dA DCT Gran Coupe": ["116"],
+                "216d DCT Gran Coupe": ["116"],
+                "218dA Gran Coupe": ["150"],
+                "220dA Gran Coupe": ["190"]
+              },
+              "2020": {
+                "216dA DCT Gran Coupe": ["116"],
+                "216d DCT Gran Coupe": ["116"],
+                "218dA Gran Coupe": ["150"],
+                "220dA Gran Coupe": ["190"]
+              },
+              "2019": {
+                "216dA DCT Gran Coupe": ["116"],
+                "216d DCT Gran Coupe": ["116"],
+                "218dA Gran Coupe": ["150"],
+                "220dA Gran Coupe": ["190"]
+              }
+            },
+            "Gasolina": {
+              "2024": {
+                "218i Gran Coupe": ["136"],
+                "218iA Gran Coupe": ["136"],
+                "220i Gran Coupe": ["184"],
+                "M235iA xDrive Gran Coupe": ["306"],
+                "M235i xDrive Gran Coupe": ["306"],
+                "M235 xDrive Gran Coupe": ["306"]
+              },
+              "2023": {
+                "218i Gran Coupe": ["136"],
+                "218iA Gran Coupe": ["136"],
+                "220i Gran Coupe": ["184"],
+                "M235iA xDrive Gran Coupe": ["306"],
+                "M235i xDrive Gran Coupe": ["306"],
+                "M235 xDrive Gran Coupe": ["306"]
+              },
+              "2022": {
+                "218i Gran Coupe": ["136"],
+                "220iA Gran Coupe": ["184"],
+                "M235iA xDrive Gran Coupe": ["306"]
+              },
+              "2021": {
+                "218i Gran Coupe": ["136"],
+                "218iA Gran Coupe": ["136"],
+                "220iA Gran Coupe": ["184"],
+                "M235iA xDrive Gran Coupe": ["306"]
+              },
+              "2020": {
+                "218i Gran Coupe": ["136"],
+                "218iA Gran Coupe": ["136"],
+                "220iA Gran Coupe": ["184"],
+                "M235iA xDrive Gran Coupe": ["306"]
+              },
+              "2019": {
+                "218i Gran Coupe": ["136"],
+                "218iA Gran Coupe": ["136"],
+                "220iA Gran Coupe": ["184"],
+                "M235iA xDrive Gran Coupe": ["306"]
+              }
+            },
+            "Híbrido": {
+              "2024": {
+                "220d Gran Coupe (Híbrido)": ["190"],
+                "220 Gran Coupe (Híbrido)": ["184"]
+              }
+            }
+          }
+        },
+        "Cabrio": {
+          "2": {
+            "Diésel": {
+              "2020": {
+                "218d": ["150"],
+                "218dA": ["150"],
+                "220d": ["190"],
+                "220dA": ["190"],
+                "225dA": ["231"]
+              },
+              "2019": {
+                "218d": ["150"],
+                "218dA": ["150"],
+                "220d": ["190"],
+                "220dA": ["190"],
+                "225dA": ["231"]
+              },
+              "2018": {
+                "218d": ["150"],
+                "218dA": ["150"],
+                "220d": ["190"],
+                "220dA": ["190"],
+                "225dA": ["231"]
+              },
+              "2017": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "225dA": ["231"]
+              },
+              "2016": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "225dA": ["231"]
+              },
+              "2015": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "225dA": ["231"]
+              },
+              "2014": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "225dA": ["231"]
+              }
+            },
+            "Gasolina": {
+              "2021": {
+                "218i": ["136"],
+                "220iA": ["184"],
+                "230iA": ["250"],
+                "M240iA": ["340"]
+              },
+              "2020": {
+                "218i": ["136"],
+                "220iA": ["184"],
+                "230iA": ["250"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"]
+              },
+              "2019": {
+                "218i": ["136"],
+                "220iA": ["184"],
+                "230iA": ["250"],
+                "M240i": ["340"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"]
+              },
+              "2018": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "220iA": ["184"],
+                "228i": ["245"],
+                "230i": ["250"],
+                "230iA": ["250"],
+                "M240i": ["340"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"]
+              },
+              "2017": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "220iA": ["184"],
+                "228i": ["245"],
+                "230i": ["250"],
+                "230iA": ["250"],
+                "M235i": ["326"],
+                "M235iA xDrive": ["326"],
+                "M240i": ["340"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"]
+              },
+              "2016": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "220iA": ["184"],
+                "228i": ["245"],
+                "230i": ["250"],
+                "230iA": ["250"],
+                "M235i": ["326"],
+                "M235iA xDrive": ["326"],
+                "M240i": ["340"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"]
+              },
+              "2015": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "228i": ["245"],
+                "230i": ["250"],
+                "M235i": ["326"],
+                "M235iA xDrive": ["326"],
+                "M240i": ["340"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"]
+              },
+              "2014": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "228i": ["245"],
+                "M235i": ["326"],
+                "M235iA xDrive": ["326"]
+              }
+            }
+          }
+        },
+        "Coupé": {
+          "2": {
+            "Diésel": {
+              "2020": {
+                "218d": ["150"],
+                "218dA": ["150"],
+                "220d": ["190"],
+                "220dA": ["190"],
+                "220dA xDrive": ["190"],
+                "225dA": ["231"]
+              },
+              "2019": {
+                "218d": ["150"],
+                "218dA": ["150"],
+                "220d": ["190"],
+                "220dA": ["190"],
+                "220dA xDrive": ["190"],
+                "225dA": ["231"]
+              },
+              "2018": {
+                "218d": ["150"],
+                "218dA": ["150"],
+                "220d": ["190"],
+                "220dA": ["190"],
+                "220dA xDrive": ["190"],
+                "225dA": ["231"]
+              },
+              "2017": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "220dA xDrive": ["190"],
+                "225dA": ["231"]
+              },
+              "2016": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "220dA xDrive": ["190"],
+                "225dA": ["231"]
+              },
+              "2015": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "220dA xDrive": ["190"],
+                "225dA": ["231"]
+              },
+              "2014": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "220dA xDrive": ["190"],
+                "225dA": ["231"]
+              },
+              "2013": {
+                "218d": ["150"],
+                "220d": ["190"],
+                "225dA": ["231"]
+              }
+            },
+            "Gasolina": {
+              "2024": {
+                "218iA": ["136"],
+                "218i M Sport": ["136"],
+                "220iA": ["184"],
+                "220i M Sport": ["184"],
+                "230iA": ["250"],
+                "230i M Sport": ["250"],
+                "M2": ["460"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"],
+                "M240i xDrive": ["340"]
+              },
+              "2023": {
+                "218iA": ["136"],
+                "218i M Sport": ["136"],
+                "220iA": ["184"],
+                "220i M Sport": ["184"],
+                "230iA": ["250"],
+                "230i M Sport": ["250"],
+                "M2": ["460"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"],
+                "M240i xDrive": ["340"]
+              },
+              "2022": {
+                "218i": ["136"],
+                "218iA": ["136"],
+                "220iA": ["184"],
+                "230iA": ["250"],
+                "M2": ["460"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"],
+                "M2 Competition": ["410"],
+                "M2 CS": ["450"]
+              },
+              "2021": {
+                "218i": ["136"],
+                "218iA": ["136"],
+                "220iA": ["184"],
+                "230iA": ["250"],
+                "M2": ["460"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"],
+                "M2 Competition": ["410"],
+                "M2 CS": ["450"]
+              },
+              "2020": {
+                "218i": ["136"],
+                "220iA": ["184"],
+                "230iA": ["250"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"],
+                "M2 Competition": ["410"],
+                "M2 CS": ["450"]
+              },
+              "2019": {
+                "218i": ["136"],
+                "220iA": ["184"],
+                "230iA": ["250"],
+                "M2": ["460"],
+                "M240i": ["340"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"],
+                "M2 Competition": ["410"],
+                "M2 CS": ["450"]
+              },
+              "2018": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "220iA": ["184"],
+                "230i": ["250"],
+                "230iA": ["250"],
+                "M2": ["460"],
+                "M240i": ["340"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"],
+                "M2 Competition": ["410"]
+              },
+              "2017": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "220iA": ["184"],
+                "228i": ["245"],
+                "230i": ["250"],
+                "230iA": ["250"],
+                "M2": ["460"],
+                "M235i": ["340"],
+                "M235iA xDrive": ["340"],
+                "M240i": ["340"],
+                "M240iA": ["340"],
+                "M240iA xDrive": ["340"],
+                "M2 Competition": ["410"]
+              },
+              "2016": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "220iA": ["184"],
+                "228i": ["245"],
+                "230i": ["250"],
+                "230iA": ["250"],
+                "M2": ["460"],
+                "M235i": ["340"],
+                "M235iA xDrive": ["340"],
+                "M240i": ["340"],
+                "M240iA xDrive": ["340"]
+              },
+              "2015": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "228i": ["245"],
+                "230i": ["250"],
+                "M2": ["460"],
+                "M235i": ["340"],
+                "M235iA xDrive": ["340"],
+                "M240i": ["340"],
+                "M240iA xDrive": ["340"]
+              },
+              "2014": {
+                "218i": ["136"],
+                "220i": ["184"],
+                "228i": ["245"],
+                "M2": ["460"],
+                "M235i": ["340"],
+                "M235iA xDrive": ["340"]
+              },
+              "2013": {
+                "220i": ["184"],
+                "228i": ["245"],
+                "M235i": ["340"],
+                "M235iA xDrive": ["340"]
+              }
+            },
+            "Híbrido": {
+              "2024": {
+                "220dA (Híbrido)": ["190"],
+                "220d M Sport (Híbrido)": ["190"]
+              },
+              "2023": {
+                "220dA (Híbrido)": ["190"],
+                "220d M Sport (Híbrido)": ["190"]
+              },
+              "2022": {
+                "220dA (Híbrido)": ["190"]
+              },
+              "2021": {
+                "220dA (Híbrido)": ["190"]
+              }
+            }
+          }
+        },
+        "Monovolumen": {
+          "5": {
+            "Diésel": {
+              "2015": {
+                "216d Active Tourer": ["116"],
+                "218d Active Tourer": ["150"],
+                "220dA Active Tourer": ["190"],
+                "220dA xDrive Active Tourer": ["190"]
+              },
+              "2014": {
+                "216d Active Tourer": ["116"],
+                "218d Active Tourer": ["150"],
+                "220dA Active Tourer": ["190"],
+                "220dA xDrive Active Tourer": ["190"]
+              }
+            },
+            "Gasolina": {
+              "2015": {
+                "218i Active Tourer": ["136"],
+                "220iA Active Tourer": ["192"],
+                "225iA Active Tourer": ["231"],
+                "225iA xDrive Active Tourer": ["231"]
+              },
+              "2014": {
+                "218i Active Tourer": ["136"],
+                "220iA Active Tourer": ["192"],
+                "225iA Active Tourer": ["231"],
+                "225iA xDrive Active Tourer": ["231"]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
